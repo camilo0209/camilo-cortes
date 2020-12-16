@@ -1,0 +1,73 @@
+body {
+    font: 1.25em Montserrat, sans-serif;
+
+}
+
+.space-tb {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.masthead {
+    background-color: #1abc9c;
+    padding-top: 5rem;
+}
+
+.mybackground1,
+.mybackground3 {
+    background-color: #1a53ff;
+    color: #ffffff;
+}
+
+.mybackground2,
+.mybackground4 {
+    background-color: #1abc9c;
+}
+
+.essay {
+    margin: 0 3rem 0 3rem;
+}
+
+.essay-thumb {
+    margin: 2rem;
+}
+
+.site-title {
+    left: 20vw;
+    position: absolute;
+    top: 50vh;
+}
+
+.title-text {
+    background-color: white;
+    color: red;
+    font-size: 6rem;
+    line-height: 8rem;
+    margin: 0;
+    padding: 0 2rem 0 2rem;
+}
+
+.course-text {
+    background-color: white;
+    color: red;
+    font-size: 5rem;
+    line-height: 8rem;
+    margin: 0;
+    padding: 0 2rem 0 2rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.background-video {
+    background: url(../media/thumbnails/autumn.jpg) no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    width: auto;
+    z-index: -100;
+}
